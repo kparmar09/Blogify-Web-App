@@ -1,6 +1,6 @@
 # BlogifyHub-Web-App
  As a student programmer project, Blogify offers a user-friendly platform with essential functionalities for managing blog posts effortlessly. Users can seamlessly navigate through the intuitive interface to view, create, edit, and delete blog posts with ease. 
-You can view the website on [BlogifyHub.com](). Give the website about half a minute to load as it is being hosted on a free domain so it takes time to start. Moreover if the link doesn't work at all, then you can clone this repo and start the server on your local computer.
+You can view the website on [BlogifyHub.com](https://blogifyhub-com.onrender.com). Give the website about half a minute to load as it is being hosted on a free domain so it takes time to start. Moreover if the link doesn't work at all, then you can clone this repo and start the server on your local computer.
 
 ## Server Setup
 ### Prerequisites
