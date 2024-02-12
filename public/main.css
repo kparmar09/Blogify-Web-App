@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+    background-color: #9f623f;
+    height: 100%;
+}
+/* CCD5AE
+E9EDC9
+FEFAE0
+FAEDCD
+D4A373 */
+
+/* Header CSS */
+.nav-bar {
+    position: sticky;
+    background-color: #f4d58d;
+    height: 70px;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 30px;   
+    opacity: 80%;
+}
+
+.header-ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.website-img {
+    height: 57px;
+    width: 57px;
+}
+
+.header-btn {
+    transition: transform 0.3s ease;
+}
+.header-btn:hover {
+    transform: scale(1.2);
+}
+
+/* Footer CSS */
+.footer-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Home Page CSS */
+.my-box {
+    display: grid;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr 2.3fr;
+    grid-template-rows: 1fr;
+}
+
+.blog-container {
+    height: auto;
+    width: auto;
+    padding: 20px 20px;
+    margin: 20px;
+    background-color: #fff3b0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.intro-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    padding: 20px 20px;
+    margin: 20px;
+    background-color: #fff3b0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-display {
+    padding: 0px 0px 20px 0px;
+}
+
+.post-buttons {
+    float: inline-end;
+}
+
+.post-buttons > button {
+    border-radius: 10px;
+    height: 32px;
+    width: 30px;
+    margin: 0px 5px 0px 0px;
+    box-shadow: none;
+    transition: transform 0.3s ease;
+}
+.post-buttons > button:hover {
+    transform: scale(1.08);
+}
+
+.homepage-desc {
+    font-size: 20px;
+}
+
+.new-post-btn {
+    padding: 0px 7px;
+    height: 30px;
+    margin-bottom: 20px;
+    box-shadow: none;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    background-color: #f4d58d;
+    border: none;
+    font-size: 18px;
+}
+.new-post-btn:hover {
+    transform: scale(1.08);
+}
+
+/* Create & Edit Page CSS */
+textarea {
+    padding: 5px 0px 0px 5px;
+    resize: none;
+    background-color: #fefae0;
+    border-radius: 7px;
+}
+
+.createblog-container {
+    height: auto;
+    width: 60%;
+    padding: 20px 20px;
+    margin: 70px auto auto auto;
+    background-color: #fff3b0;
+    border-radius: 10px;
+}
+
+.blog-title {
+    height: 30px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.blog-desc {
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.blog-body {
+    height: 300px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.blog-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.blog-author {
+    height: 25px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.blog-category {
+    height: 25px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.submit-btn {
+    height: 45px;
+    width: 75px;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    background-color: #f4d58d;
+    border: none;
+}
+.submit-btn:hover {
+    transform: scale(1.08);
+}
+
+
+/* FONTS:- */
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+  .dm-sans-bold {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 550;
+    font-style: normal;
+  }
+
+  .dm-sans-medium {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  
+  

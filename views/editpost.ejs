@@ -1,0 +1,39 @@
+<%-include("partials/header.ejs")%>
+
+<div class="createblog-container">
+  <form action="/submit/<%=dataList[index]["id"]%>" method="POST">
+    <input type="hidden" name="id" value="<%=dataList[index]["id"]%>">
+    <div class="blog-content">
+      <textarea rows="4" cols="50" name="blogtitle" placeholder="Title" class="blog-title lato-regular">
+        <%=dataList[index]["blogTitle"]%>
+      </textarea>
+      <textarea rows="4" cols="50" name="description" class="blog-desc lato-regular">
+        <%=dataList[index]["description"]%>
+      </textarea>
+      <textarea rows="4" cols="50" name="mainbody" class="blog-body lato-regular">
+        <%=dataList[index]["mainbody"]%>
+      </textarea>
+    </div>
+    <br>
+    <div class="blog-info">
+      <div>
+        <textarea rows="4" cols="50" name="authorname" class="blog-author lato-regular">
+          <%=dataList[index]["author"]%>
+        </textarea>
+      </div>
+      <div>
+        <textarea rows="4" cols="50" name="category" class="blog-category lato-regular">
+          <%=dataList[index]["category"]%>
+        </textarea>
+      </div>
+      <br>
+    </div>
+    <br><br>
+    <div class="flex-div">
+      <button type="submit" value="edit" class="submit-btn lato-bold">Edit</button>
+    </div>
+  </form>
+</div>
+
+
+<%-include("partials/footer.ejs")%>

@@ -1,0 +1,29 @@
+<%-include("partials/header.ejs")%>
+
+<div class="createblog-container">
+  <form action="/submit" method="POST">
+    <div class="blog-content">
+      <textarea rows="4" cols="50" name="blogtitle" placeholder="Title" class="blog-title lato-regular"></textarea>
+      <textarea rows="4" cols="50" name="description" placeholder="Description" class="blog-desc lato-regular"></textarea>
+      <textarea rows="4" cols="50" name="mainbody" placeholder="Blog Content" class="blog-body lato-regular"></textarea>
+    </div>
+    <br>
+    <div class="blog-info lato-regular">
+      <div>
+        <textarea rows="4" cols="50" name="authorname" placeholder="Author Name" class="blog-author lato-regular"></textarea>
+      </div>
+      <div>
+        <textarea rows="4" cols="50" name="category" placeholder="Domain Name" class="blog-category lato-regular"></textarea>
+      </div>
+    </div>
+    <br><br>
+    <div class="flex-div">
+      <button type="submit" value="submit" class="submit-btn lato-bold">Post</button>
+    </div>
+    
+  </form>
+</div>
+
+
+
+<%-include("partials/footer.ejs")%>
